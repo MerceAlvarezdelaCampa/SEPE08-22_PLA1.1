@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>var exports = {};</script>
+    <script src="www/app.js" defer></script>
+</head>
+<body>
+
+    <h1>Vacances</h1>
+
+    <h2>Nova vacança</h2>
+
+    <form>
+        <div>
+            <label for="nom">Nom</label>
+            <input id="nom" type="text" />
+        </div>
+        <div>
+            <label for="preu">Preu</label>
+            <input id="preu" type="number" />
+        </div>
+        <div>
+            <label for="pais">Pais</label>
+            <input id="pais" type="text" />
+        </div>
+        <div>
+            <label for="descripcio">Descripció</label>
+            <textarea id="descripcio" type="text"></textarea>
+        </div>
+        <div>
+            <button type="button" onclick="addVacanca()">Add Vacanca</button>
+        </div>
+    </form>
+
+    <h2>Vacances</h2>
+
+    <div id="llistat"></div>
+
+    <h2>Detall</h2>
+
+    <div id="detall"></div>
+    
+</body>
+</html>
